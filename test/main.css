@@ -154,6 +154,7 @@ ul.subMenu1  {
 /******* EXAMPLE A *******/
 .br-wrapper .br-widget {
   height: 50px;
+  display: inline-block;
 }
 .br-wrapper .br-widget a {
   display: block;
