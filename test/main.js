@@ -21,6 +21,9 @@ $(document).ready(function(){
 		var sub = $(this).next('.toggle');
 		if (sub.is(':visible')) sub.slideUp('normal'); else sub.slideDown('normal');
 	});
-	
-	
+
+});
+
+$(function() {
+      $('.bar-rating').barrating();
 });
